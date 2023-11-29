@@ -13,6 +13,7 @@ module.exports = {
       'white': '#ffffff',
       'yellow': '#EFB810',
       'gray': '#EDEDED',
+      'black': '#000000',
     }
   },
   plugins: [require("daisyui")],
