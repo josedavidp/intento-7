@@ -1,6 +1,7 @@
 import React from 'react';
+import Objetivosimg from '/src/images/Objetivos.png';
 
-const Cursos = () => {
+const Objetivos = () => {
     return (
         
         <section className=" mt-blue mb-blue bg-blue">
@@ -12,7 +13,6 @@ const Cursos = () => {
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                         <div className="lg:col-start-2">
                             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-yellow">Nuestros Objetivos</h3>
-
                             <div className="mt-12 space-y-12">
 
 
@@ -74,7 +74,7 @@ const Cursos = () => {
                             </div>
                         </div>
                         <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-                            <img src="Objetivos.png" alt="" className="mx-auto rounded-lg shadow-lg bg-blue" />
+                            <img src={ Objetivosimg } alt="" className="mx-auto rounded-lg shadow-lg bg-blue" />
                         </div>
                     </div>
                 </div>
@@ -83,6 +83,6 @@ const Cursos = () => {
     );
 };
 
-export default Cursos; 
+export default Objetivos;
 
-export { Cursos };
+export { Objetivos };

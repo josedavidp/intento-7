@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../BannerItems.css';
-import image from '../../public/Seccion1.png';
+import image from '../images/Seccion1.png';
 
-const BannerItems = ({ slide }) => {
+const BannerItems = () => {
     return (
         <div className="carousel-item relative w-full">
             <div className='carousel-img w-full h-[800px]'>
@@ -21,5 +21,4 @@ const BannerItems = ({ slide }) => {
         </div>
     );
 };
-
 export default BannerItems;
