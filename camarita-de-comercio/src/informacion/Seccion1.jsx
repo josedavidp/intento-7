@@ -4,7 +4,7 @@ import image from '../images/Seccion1.png';
 
 const BannerItems = () => {
     return (
-        <div className="carousel-item relative w-full">
+        <div className="carousel-item relative w-full bg-white">
             <div className='carousel-img w-full h-[800px]'>
                 <img src={image} alt='' className="h-[800px]" />
             </div>

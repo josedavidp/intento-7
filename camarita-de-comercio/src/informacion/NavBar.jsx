@@ -27,8 +27,8 @@ const Navbar = () => {
             <div className="navbar-end hidden lg:flex font-thin text-white">
                 <ul className="menu menu-horizontal p-0">
                     <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/contact">Conoce más</Link></li>
-                    <li><Link to="/banner">¿Qué buscamos?</Link></li>
+                    <li><Link to="/conoceMas">Conoce más</Link></li>
+                    <li><Link to="/queBuscamos">¿Qué buscamos?</Link></li>
                     <li><Link to="/objetivos">Objetivos</Link></li>
                     <li><Link to="/cursos">Cursos</Link></li>
                     <li><Link to="/ingreso">Ingresar</Link></li>

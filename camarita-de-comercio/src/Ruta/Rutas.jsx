@@ -5,6 +5,8 @@ import Seccion1 from '/src/informacion/Seccion1';
 import Objetivos from '/src/informacion/Objetivos';
 import Ingreso from '/src/informacion/Ingreso';
 import Registro from '/src/informacion/Registro';
+import Seccion2 from '/src/informacion/Seccion2';
+import Seccion3 from '/src/informacion/Seccion3';
 
 const Rutas = () => {
     return (
@@ -15,6 +17,8 @@ const Rutas = () => {
                 <Route path="/objetivos" element={<Objetivos/>} />
                 <Route path="/ingreso" element={<Ingreso />} />
                 <Route path="/registro" element={<Registro />} />
+                <Route path="/conoceMas" element={<Seccion2 />} />
+                <Route path="/queBuscamos" element={<Seccion3 />} />
             </Routes>
         </Router>
     );
