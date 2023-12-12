@@ -7,7 +7,7 @@ import Ingreso from '/src/informacion/Ingreso';
 import Registro from '/src/informacion/Registro';
 import Seccion2 from '/src/informacion/Seccion2';
 import Seccion3 from '/src/informacion/Seccion3';
-import Dashboard from '../Cursos/Dashboard';
+import Dashboard from '../Cursos/Page/Dashboard';
 
 const Rutas = () => {
     return (
