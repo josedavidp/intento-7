@@ -9,6 +9,8 @@ import Seccion2 from '/src/informacion/Seccion2';
 import Seccion3 from '/src/informacion/Seccion3';
 import Dashboard from '../Cursos/Page/Dashboard';
 
+
+
 const Rutas = () => {
     return (
         <Router>
